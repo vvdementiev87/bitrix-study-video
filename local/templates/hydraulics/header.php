@@ -79,7 +79,7 @@ IncludeTemplateLangFile(__FILE__);
                     <div class="col-sm-12 col-md-5 col-lg-5 d-flex flex-wrap justify-content-end">
                         <ul class="header-topbar__links d-flex flex-wrap list-unstyled mb-0">
                             <li><a href="#">New & Media</a></li>
-                            <li><a href="contacs.html">Contacts</a></li>
+                            <li><a href="/contacts">Contacts</a></li>
                             <li><a href="careers.html">Careers</a></li>
                         </ul>
                         <ul class="social-icons list-unstyled mb-0">
@@ -203,7 +203,7 @@ IncludeTemplateLangFile(__FILE__);
                             </ul><!-- /.dropdown-menu -->
                         </li><!-- /.nav-item -->
                         <li class="nav__item">
-                            <a href="contacs.html" class="nav__item-link">Contact Us</a>
+                            <a href="/contacts" class="nav__item-link">Contact Us</a>
                         </li><!-- /.nav-item -->
                     </ul><!-- /.navbar-nav -->
                 </div><!-- /.navbar-collapse -->
