@@ -93,7 +93,7 @@ IncludeTemplateLangFile(__FILE__);
         </div><!-- /.header-topbar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid px-0">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <? $APPLICATION->IncludeComponent(
                         "bitrix:main.include",
                         "",
@@ -112,10 +112,10 @@ IncludeTemplateLangFile(__FILE__);
                 <div class="collapse navbar-collapse" id="mainNavigation">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav__item with-dropdown">
-                            <a href="index.html" class="dropdown-toggle nav__item-link active">Home</a>
+                            <a href="/" class="dropdown-toggle nav__item-link active">Home</a>
                             <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                             <ul class="dropdown-menu">
-                                <li class="nav__item"><a href="index.html" class="nav__item-link">Home Moderm</a></li>
+                                <li class="nav__item"><a href="/" class="nav__item-link">Home Moderm</a></li>
                                 <!-- /.nav-item -->
                                 <li class="nav__item"><a href="home-classic.html" class="nav__item-link">Home
                                         classic</a></li>
