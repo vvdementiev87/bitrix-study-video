@@ -127,10 +127,10 @@ IncludeTemplateLangFile(__FILE__);
                             </ul><!-- /.dropdown-menu -->
                         </li><!-- /.nav-item -->
                         <li class="nav__item with-dropdown">
-                            <a href="about-us.html" class="dropdown-toggle nav__item-link">Company</a>
+                            <a href="/about" class="dropdown-toggle nav__item-link">Company</a>
                             <i class="fa fa-angle-down" data-toggle="dropdown"></i>
                             <ul class="dropdown-menu">
-                                <li class="nav__item"><a href="about-us.html" class="nav__item-link">About Us</a></li>
+                                <li class="nav__item"><a href="/about" class="nav__item-link">About Us</a></li>
                                 <!-- /.nav-item -->
                                 <li class="nav__item"><a href="core-values.html" class="nav__item-link">core values</a>
                                 </li>
