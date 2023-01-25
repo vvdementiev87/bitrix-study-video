@@ -3,10 +3,21 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Контакты");
 ?>
     <section class="google-map p-0">
-      <div id="map" style="height: 480px;"></div>
-      <script src="<?= SITE_TEMPLATE_PATH; ?>/js/google-map.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-      <!-- CLICK HERE (https://developers.google.com/maps/documentation/embed/get-api-key) TO  LERAN MORE ABOUT GOOGLE MAPS API KEY -->
+    <div id="map" style="height: 480px;">
+        <?$APPLICATION->IncludeComponent(
+            "bitrix:map.yandex.view",
+            "",
+            Array(
+                "API_KEY" => "",
+                "CONTROLS" => array("ZOOM","MINIMAP","TYPECONTROL","SCALELINE"),
+                "INIT_MAP_TYPE" => "MAP",
+                "MAP_DATA" => "a:5:{s:10:\"yandex_lat\";d:55.73829999999371;s:10:\"yandex_lon\";d:37.59459999999997;s:12:\"yandex_scale\";i:10;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:37.662632813551845;s:3:\"LAT\";d:55.8704164075548;s:4:\"TEXT\";s:0:\"\";}}s:9:\"POLYLINES\";a:0:{}}",
+                "MAP_HEIGHT" => "480",
+                "MAP_ID" => "",
+                "MAP_WIDTH" => "100%",
+                "OPTIONS" => array("ENABLE_SCROLL_ZOOM","ENABLE_DBLCLICK_ZOOM","ENABLE_DRAGGING")
+            )
+        );?></div>
     </section><!-- /.GoogleMap -->
 
     <!-- ==========================
